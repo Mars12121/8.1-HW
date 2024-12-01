@@ -40,7 +40,7 @@
 12. Теперь можно сделать коммит git commit -m 'First commit'.
 13. Сделайте git push origin master.
 
-[https://github.com/Mars12121/HW-8-01-Task-1.git]
+[Commit READMI.md](https://github.com/Mars12121/HW-8-01-Task-1.git)
 
 ```
 git diff --staged README.md
@@ -73,10 +73,6 @@ To https://github.com/Mars12121/HW-8-01-Task-1.git
 error: update_ref failed for ref 'refs/remotes/origin/main': cannot update the ref 'refs/remotes/origin/main': unable to append to '.git/logs/refs/remotes/origin/main': Permission denied
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-
-
 ---
 
 ### Задание 2
@@ -88,6 +84,8 @@ error: update_ref failed for ref 'refs/remotes/origin/main': cannot update the r
 4. Сделайте коммит и пуш.
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
+[Commit .gitignore](https://github.com/Mars12121/8.1-HW/blob/main/.gitignore)
+
 Добавляем исключения в файл .gitignore
 ```
 #Игнорируем файлы с расширением .pyc
@@ -95,18 +93,6 @@ error: update_ref failed for ref 'refs/remotes/origin/main': cannot update the r
 #Игнорировать все файлы в директории cache
 cache/
 ```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-
-
----
 
 ### Задание 3
 
