@@ -42,7 +42,7 @@
 
 [https://github.com/Mars12121/HW-8-01-Task-1.git]
 
-....Bash
+```
 git diff --staged README.md
 diff --git a/README.md b/README.md
 index f5c26bd..74e2b23 100644
@@ -57,12 +57,12 @@ index f5c26bd..74e2b23 100644
 \ No newline at end of file
 ```
 
-....Bash
+```
 git commit -m 'First commit'
 [main 568373d] First commit
  1 file changed, 2 insertions(+), 1 deletion(-)
 ```
-....Bash
+```
  git push origin main
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
