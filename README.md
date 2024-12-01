@@ -109,5 +109,3 @@ cache/
 Ваш граф комитов должен выглядеть аналогично скриншоту:
 
 [Task3](https://github.com/Mars12121/8.1-HW/network)
-
-![Graf](https://github.com/Mars12121/8.1-HW/main/Task3.png)
