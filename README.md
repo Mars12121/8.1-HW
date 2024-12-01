@@ -110,4 +110,4 @@ cache/
 
 [Task3](https://github.com/Mars12121/8.1-HW/network)
 
-![Graf](https://github.com/Mars12121/8.1-HW/main/img/Task3.png)
+![Graf](https://github.com/Mars12121/8.1-HW/img/Task3.png)
