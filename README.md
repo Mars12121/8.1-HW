@@ -40,12 +40,11 @@
 12. Теперь можно сделать коммит git commit -m 'First commit'.
 13. Сделайте git push origin master.
 
-[Commit](https://github.com/Mars12121/HW-8-01-Task-1.git)
+[https://github.com/Mars12121/HW-8-01-Task-1.git]
 
-Bash
-git diff README.md         
-diff --git a/README.md b/README.md
-index f5c26bd..74e2b23 100644
+....git diff README.md         
+....diff --git a/README.md b/README.md
+....index f5c26bd..74e2b23 100644
 --- a/README.md
 +++ b/README.md
 @@ -1,2 +1,3 @@
