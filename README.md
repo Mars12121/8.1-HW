@@ -42,21 +42,7 @@
 
 [https://github.com/Mars12121/HW-8-01-Task-1.git]
 
-Bash
-git diff README.md         
-diff --git a/README.md b/README.md
-index f5c26bd..74e2b23 100644
---- a/README.md
-+++ b/README.md
-@@ -1,2 +1,3 @@
-.... # HW-8-01-Task-1
--# Aleksandr Morozov
-\ No newline at end of file
-+# Aleksandr Morozov
-+# Hi 
-\ No newline at end of file
-```
-Bash
+
 git diff --staged README.md
 diff --git a/README.md b/README.md
 index f5c26bd..74e2b23 100644
@@ -71,7 +57,7 @@ index f5c26bd..74e2b23 100644
 \ No newline at end of file
 ```
 
-Bash
+
 git commit -m 'First commit'
 [main 568373d] First commit
  1 file changed, 2 insertions(+), 1 deletion(-)
