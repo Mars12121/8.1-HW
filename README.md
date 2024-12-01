@@ -42,6 +42,7 @@
 
 [https://github.com/Mars12121/HW-8-01-Task-1.git]
 
+Bash
 git diff README.md         
 diff --git a/README.md b/README.md
 index f5c26bd..74e2b23 100644
