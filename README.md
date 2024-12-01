@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "`Git`" - `Морозоа Александр`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -24,21 +24,67 @@
 
 ### Задание 1
 
-`Приведите ответ в свободной форме........`
+Что нужно сделать:
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. Зарегистрируйте аккаунт на GitHub.
+2. Создайте новый отдельный публичный репозиторий. Обязательно поставьте галочку в поле «Initialize this repository with a README».
+3. Склонируйте репозиторий, используя https протокол git clone ....
+4. Перейдите в каталог с клоном репозитория.
+5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: git config --global user.name и git config --global user.email johndoe@example.com.
+6. Выполните команду git status и запомните результат.
+7. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified.
+8. Ещё раз выполните git status и продолжайте проверять вывод этой команды после каждого следующего шага.
+9. Посмотрите изменения в файле README.md, выполнив команды git diff и git diff --staged.
+10. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой git add README.md.
+11. Ещё раз выполните команды git diff и git diff --staged.
+12. Теперь можно сделать коммит git commit -m 'First commit'.
+13. Сделайте git push origin master.
 
+[Commit](https://github.com/Mars12121/HW-8-01-Task-1.git)
+
+....Bash
+git diff README.md         
+diff --git a/README.md b/README.md
+index f5c26bd..74e2b23 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,3 @@
+ # HW-8-01-Task-1
+-# Aleksandr Morozov
+\ No newline at end of file
++# Aleksandr Morozov
++# Hi 
+\ No newline at end of file
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+....Bash
+git diff --staged README.md
+diff --git a/README.md b/README.md
+index f5c26bd..74e2b23 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,3 @@
+ # HW-8-01-Task-1
+-# Aleksandr Morozov
+\ No newline at end of file
++# Aleksandr Morozov
++# Hi 
+\ No newline at end of file
+```
+
+....Bash
+git commit -m 'First commit'
+[main 568373d] First commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+```
+....Bash
+ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Mars12121/HW-8-01-Task-1.git
+   0336913..568373d  main -> main
+error: update_ref failed for ref 'refs/remotes/origin/main': cannot update the ref 'refs/remotes/origin/main': unable to append to '.git/logs/refs/remotes/origin/main': Permission denied
 ```
 
 `При необходимости прикрепитe сюда скриншоты
