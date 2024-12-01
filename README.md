@@ -42,13 +42,13 @@
 
 [https://github.com/Mars12121/HW-8-01-Task-1.git]
 
-....git diff README.md         
-....diff --git a/README.md b/README.md
-....index f5c26bd..74e2b23 100644
+git diff README.md         
+diff --git a/README.md b/README.md
+index f5c26bd..74e2b23 100644
 --- a/README.md
 +++ b/README.md
 @@ -1,2 +1,3 @@
- # HW-8-01-Task-1
+.... # HW-8-01-Task-1
 -# Aleksandr Morozov
 \ No newline at end of file
 +# Aleksandr Morozov
