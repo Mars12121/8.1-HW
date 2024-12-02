@@ -41,7 +41,8 @@
 13. Сделайте git push origin master.
 
 [Task1](https://github.com/Mars12121/HW-8-01-Task-1.git)
-[Commit README.md](https://github.com/Mars12121/8.1-HW/commit/f838f6db5dbf276e30e67aea1e92862ce19e70c4)
+
+[Commit README.md](https://github.com/Mars12121/8.1-HW/commit/e3580ef051fd394ded077089156f3113eb0fb7fe)
 
 ```
 git diff --staged README.md
@@ -86,6 +87,7 @@ error: update_ref failed for ref 'refs/remotes/origin/main': cannot update the r
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
 [Task2](https://github.com/Mars12121/8.1-HW/blob/main/.gitignore)
+
 [Commit .gitignore](https://github.com/Mars12121/8.1-HW/commit/3029a16979f6722d937e04f85fe75e6f80e4cfa5)
 
 Добавляем исключения в файл .gitignore
